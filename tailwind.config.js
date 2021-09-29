@@ -1,9 +1,24 @@
 // tailwind.config.js
 module.exports = {
-    purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+    mode: 'jit',
+    purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html", "./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
     darkMode: false, // or 'media' or 'class'
     theme: {
-      extend: {},
+      extend: {
+        backgroundImage: {
+          'cosmos': "url('/animat.gif')",
+        },
+        backgroundSize: {
+          '40' : '40%',
+          '50' : '50%',
+          '60' : '60%',
+          
+        },
+        zIndex: {
+         '75': 75,
+         '100': 100,
+        }
+      },
     },
     variants: {},
     plugins: [],
