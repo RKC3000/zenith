@@ -1,19 +1,18 @@
-import Image from "next/image";
 import SpeakerCard from "../components/SpeakerCard";
 
 function Speakers() {
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center p-2 m-2 space-y-10">
+        <div id="speakers" className="min-h-screen flex flex-col items-center justify-center p-2 m-2 space-y-8">
             {/* Heading */}
             <div>
                     <div className="text-center">
-                        <h2 className="text-3xl font-bold">Speakers and Judges</h2>
+                        <h2 className="text-3xl font-bold underline">Speakers and Judges</h2>
                     </div>
             </div>
 
             {/* Cards */}
             {/* <div className="grid grid-flow-row grid-cols-3 grid-rows-3 gap-40"> */}
-            <div className="flex items-center justify-center space-x-48 flex-wrap">
+            <div className="w-[1100px] h-[400px] flex flex-col flex-wrap items-center justify-center space-x-16 overflow-scroll scrollbar-thin ">
                 <SpeakerCard />
                 <SpeakerCard />
                 <SpeakerCard />

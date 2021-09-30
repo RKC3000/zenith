@@ -4,65 +4,183 @@ function Schedule() {
 
             <h1>Schedule</h1>
 
-            <div className="container-fluid blue-bg">
-                <div className="container">
-                    <h2 className="pb-3 pt-2">Vertical Left-Right Timeline</h2>
-                    {/* first section */}
-                    <div className="row align-items-center how-it-works">
-                        <div className="col-2 text-center bottom">
-                            <div className="circle">1</div>
-                        </div>
-                        <div className="col-6">
-                            <h5>Fully Responsive</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
-                        </div>
-                    </div>
-                    {/* path between 1-2 */}
-                    <div className="row timeline">
-                        <div className="col-2">
-                            <div className="corner top-right"></div>
-                        </div>
-                        <div className="col-8">
-                            <hr />
-                        </div>
-                        <div className="col-2">
-                            <div className="corner left-bottom"></div>
-                        </div>
-                    </div>
-                    {/* second section */}
-                    <div className="row align-items-center justify-content-end how-it-works">
-                        <div className="col-6 text-right">
-                            <h5>Using Bootstrap</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
-                        </div>
-                        <div className="col-2 text-center full">
-                            <div className="circle">2</div>
-                        </div>
-                    </div>
-                    {/* path between 2-3 */}
-                    <div className="row timeline">
-                        <div className="col-2">
-                            <div className="corner right-bottom"></div>
-                        </div>
-                        <div className="col-8">
-                            <hr />
-                        </div>
-                        <div className="col-2">
-                            <div className="corner top-left"></div>
-                        </div>
-                    </div>
-                    {/* third section */}
-                    <div className="row align-items-center how-it-works">
-                        <div className="col-2 text-center top">
-                            <div className="circle">3</div>
-                        </div>
-                        <div className="col-6">
-                            <h5>Now with Pug and Sass</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
-                        </div>
-                    </div>
+            <div className="title">
+                <h2>Responsive Vertical Timeline</h2>
+                 <p><a href="https://htmlcodex.com/css-timeline">More timeline designs</a></p>
             </div>
-</div>
+            <div className="timeline">
+                <div className="container">
+                    <div className="row">
+                    <div className="col-lg-12">
+                        <div className="timeline-container">
+                        <div className="timeline-end">
+                            <p>Now</p>
+                        </div>
+                        <div className="timeline-continue">
+
+                            <div className="row timeline-right">
+                            <div className="col-md-6">
+                                <p className="timeline-date">
+                                01 Jun 2020
+                                </p>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="timeline-box">
+                                <div className="timeline-icon">
+                                    <i className="fa fa-gift"></i>
+                                </div>
+                                <div className="timeline-text">
+                                    <h3>Lorem ipsum dolor</h3>
+                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div className="row timeline-left">
+                            <div className="col-md-6 d-md-none d-block">
+                                <p className="timeline-date">
+                                01 Jan 2020
+                                </p>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="timeline-box">
+                                <div className="timeline-icon d-md-none d-block">
+                                    <i className="fa fa-business-time"></i>
+                                </div>
+                                <div className="timeline-text">
+                                    <h3>Lorem ipsum dolor</h3>
+                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                </div>
+                                <div className="timeline-icon d-md-block d-none">
+                                    <i className="fa fa-business-time"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6 d-md-block d-none">
+                                <p className="timeline-date">
+                                01 Jan 2020
+                                </p>
+                            </div>
+                            </div>
+
+                            <div className="row">
+                            <div className="col-12">
+                                <div className="timeline-year">
+                                <p>2020</p>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div className="row timeline-right">
+                            <div className="col-md-6">
+                                <p className="timeline-date">
+                                01 Dec 2019
+                                </p>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="timeline-box">
+                                <div className="timeline-icon">
+                                    <i className="fa fa-briefcase"></i>
+                                </div>
+                                <div className="timeline-text">
+                                    <h3>Lorem ipsum dolor</h3>
+                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div className="row timeline-left">
+                            <div className="col-md-6 d-md-none d-block">
+                                <p className="timeline-date">
+                                01 Sep  2019
+                                </p>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="timeline-box">
+                                <div className="timeline-icon d-md-none d-block">
+                                    <i className="fa fa-cogs"></i>
+                                </div>
+                                <div className="timeline-text">
+                                    <h3>Lorem ipsum dolor</h3>
+                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                </div>
+                                <div className="timeline-icon d-md-block d-none">
+                                    <i className="fa fa-cogs"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6 d-md-block d-none">
+                                <p Nameclass="timeline-date">
+                                01 Sep  2019
+                                </p>
+                            </div>
+                            </div>
+
+                            <div className="row timeline-right">
+                            <div className="col-md-6">
+                                <p className="timeline-date">
+                                01 Jun 2019
+                                </p>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="timeline-box">
+                                <div className="timeline-icon">
+                                    <i className="fa fa-running"></i>
+                                </div>
+                                <div className="timeline-text">
+                                    <h3>Lorem ipsum dolor</h3>
+                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div className="row timeline-left">
+                            <div className="col-md-6 d-md-none d-block">
+                                <p className="timeline-date">
+                                01 Mar 2019
+                                </p>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="timeline-box">
+                                <div className="timeline-icon d-md-none d-block">
+                                    <i className="fa fa-home"></i>
+                                </div>
+                                <div className="timeline-text">
+                                    <h3>Lorem ipsum dolor</h3>
+                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                </div>
+                                <div className="timeline-icon d-md-block d-none">
+                                    <i className="fa fa-home"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6 d-md-block d-none">
+                                <p className="timeline-date">
+                                01 Mar 2019
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                        <div className="timeline-start">
+                            <p>Launch</p>
+                        </div>
+                        <div className="timeline-launch">
+                            <div className="timeline-box">
+                            <div className="timeline-text">
+                                <h3>Launched our company on 01 Jan 2019</h3>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
         </section>
         
     )

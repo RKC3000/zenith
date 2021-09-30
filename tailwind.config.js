@@ -17,9 +17,15 @@ module.exports = {
         zIndex: {
          '75': 75,
          '100': 100,
-        }
+        },
+        boxShadow: {
+          'ssm' : '0 0 5px rgba(0, 0, 0, .4)'
+        },
       },
     },
     variants: {},
-    plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide'),
+    require('tailwind-scrollbar'),
+    ],
   }

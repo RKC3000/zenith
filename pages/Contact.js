@@ -1,14 +1,14 @@
+import Iframe from 'react-iframe';
+
 function Contact() {
     return (
-        <div className="min-h-screen">
+        <div id="contact" className="min-h-screen flex items-center justify-center">
             <div className="mt-10 sm:mt-0">
-                <div className="md:grid md:grid-cols-3 md:gap-6">
-                    {/* <div className="md:col-span-1">
-                        <div className="px-4 sm:px-0">
-                        <h3 className="text-lg font-medium leading-6 text-gray-900">Personal Information</h3>
-                        <p className="mt-1 text-sm text-gray-600">Use a permanent address where you can receive mail.</p>
-                        </div>
-                    </div> */}
+                <div className="mb-8">
+                    <h3 className="text-3xl font-medium leading-6 text-[#300E54] underline">Contact Us</h3>
+                </div>
+
+                <div className="md:grid md:grid-cols-3 md:gap-6">        
                     <div className="mt-5 md:mt-0 md:col-span-2">
                         <form action="#" method="POST">
                             <div className="shadow overflow-hidden sm:rounded-md">
@@ -82,19 +82,10 @@ function Contact() {
                 </div>
             </div>
             
-            
-
-
-            {/* details */}
-            {/* <div>
-                <h1 className="text-5xl">CONTACT US</h1>
-
-                <p>Name: </p>
-                <input type="text" placeholder="Your Name" />
-            </div> */}
-
             {/* map */}
-            {/* <div></div> */}
+            <div className="h-[310px] border-2 border-black">
+                <Iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2337.3028364855413!2d75.58852469595783!3d28.369019617523016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39131bd8fa3e1421%3A0xd7928a8c86ca1d5e!2zQiBLIEJpcmxhIEluc3RpdHV0ZSBvZiBFbmdpbmVlcmluZyAmIFRlY2hub2xvZ3ksIFBpbGFuaSAo4KSs4KWAIOCkleClhyDgpKzgpL_gpKHgpLzgpLLgpL4g4KSH4KSC4KSc4KWA4KSo4KS_4KSv4KSw4KS_4KSC4KSXIOCklOCksCDgpKrgpY3gpLDgpYzgpKbgpY3gpK_gpYvgpJfgpL_gpJXgpYAg4KS44KSC4KS44KWN4KSl4KS-4KSoLCDgpKrgpL_gpLLgpL7gpKjgpYApIChCS0JJRVQsIFBJTEFOSSk!5e0!3m2!1sen!2sin!4v1632981693884!5m2!1sen!2sin" width="450" height="305" style="border:0;" allowfullscreen="" loading="lazy"></Iframe>
+            </div>
         </div>
     )
 }
