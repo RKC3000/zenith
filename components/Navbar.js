@@ -33,15 +33,16 @@ function Navbar() {
                     <MenuIcon />
                 </button>
                 <div
-                    className={`${ active ? '' : 'hidden'} flex items-center justify-center text-md space-x-4 lg:inline-flex md:text-lg `}
+                    className={`${active ? '' : 'hidden'} flex w-auto text-md mt-44  lg:inline-flex md:mt-0 text-lg `}
                 >
-                    
+                    <div className="flex flex-col w-[200px] items-center ml-auto bg-[#030035] md:flex-row space-x-4 ">
                         <a href="#about" className="text-white cursor-pointer">About</a>
                         <a href="#schedule" className="text-white cursor-pointer">Schedule</a>
                         <a href="#speakers" className="text-white cursor-pointer">Speakers</a>
                         <a href="#sponsors" className="text-white cursor-pointer">Sponsors</a>
                         <a href="#faq" className="text-white cursor-pointer">FAQ</a>
                         <a href="#contact" className="text-white cursor-pointer">Contact</a>
+                    </div>
                     
                 </div>
             </div>
