@@ -1,4 +1,4 @@
-import firebase from 'firebase';
+import firebase from 'firebase/app';
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
@@ -9,4 +9,6 @@ const firebaseConfig = {
     messagingSenderId: "927355970295",
     appId: "1:927355970295:web:63ca7ef7e63795163d29f2",
     measurementId: "G-9RK0ZW8VZK"
-  };
+};
+  
+firebase.initializeApp(firebaseConfig);
