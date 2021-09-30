@@ -13,7 +13,7 @@ function Navbar() {
     };
 
     return (
-        <div className="w-[95%] bg-[#030035] flex items-center justify-between  md:p-4 ml-[19px] mr-[19px] rounded-lg">
+        <div className="w-[85%] h-[50px] bg-[#030035] flex items-center justify-between rounded-lg md:w-[95%] p-4 ml-[19px] mr-[19px] ">
             {/* logo */}
             <div className="flex items-center p-1">
                 <Image
@@ -22,7 +22,7 @@ function Navbar() {
                     height={30}
                     width={40}
                 />
-                <h1 className="text-2xl font-bold text-white pl-1">Zenith</h1>
+                <h1 className="text-xl font-bold text-white pl-1 md:text-2xl">Zenith</h1>
             </div>
             {/* Nav Items */}
             <div className="flex flex-col">

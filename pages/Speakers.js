@@ -12,7 +12,7 @@ function Speakers() {
 
             {/* Cards */}
             {/* <div className="grid grid-flow-row grid-cols-3 grid-rows-3 gap-40"> */}
-            <div className="w-[240px] flex flex-col flex-wrap items-center justify-center space-x-16 overflow-scroll scrollbar-thin md:w-[1030px] h-[400px] ">
+            <div className="w-[235px] ml-7 flex flex-col flex-wrap items-center justify-center space-x-16 overflow-scroll scrollbar-thin lg:w-[240px] md:w-[1030px] h-[400px] ">
                 <SpeakerCard />
                 <SpeakerCard />
                 <SpeakerCard />

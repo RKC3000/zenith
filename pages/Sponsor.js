@@ -3,8 +3,8 @@ import Image from "next/image";
 function Sponsor() {
     return (
         <div id="sponsors" className="min-h-screen flex flex-col">
-            <h1 className="text-4xl font-bold ml-20 underline">Our </h1>
-            <h1 className="text-6xl font-bold ml-20 underline">Sponsors</h1>
+            <h1 className="font-bold text-2xl  ml-20 underline">Our </h1>
+            <h1 className="font-bold text-2xl  ml-20 mb-5 underline">Sponsors</h1>
 
             <div className="flex flex-col items-center justify-between space-y-20">
                 <div className="w-48">

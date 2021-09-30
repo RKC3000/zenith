@@ -6,7 +6,7 @@ function FAQ() {
         <div id="faq" className="min-h-screen flex flex-col items-center justify-center space-y-5 text-left">
             <h1 className="text-5xl font-bold">FAQ</h1>
 
-            <div className="w-96 group bg-gray-800 p-2 flex flex-col border-2 rounded-xl text-white md:w-[800px]">
+            <div className="w-56 group bg-gray-800 p-2 flex flex-col border-2 rounded-xl text-white md:w-[800px]">
                 <div className="flex items-center justify-between">
                     <p>1. How to register for Zenith?</p>
                     <ExpandMoreIcon />
@@ -16,7 +16,7 @@ function FAQ() {
                     Forms will be out soon.
                 </div>
             </div>
-            <div className="w-96 group bg-gray-800 p-2 flex flex-col border-2 rounded-xl text-white md:w-[800px]">
+            <div className="w-56 group bg-gray-800 p-2 flex flex-col border-2 rounded-xl text-white md:w-[800px]">
                 <div className="flex items-center justify-between">
                     <p>2. What are the dates of Zenith 2021?</p>
                     <ExpandMoreIcon/>
@@ -27,7 +27,7 @@ function FAQ() {
                 </div>
 
             </div>
-            <div className="w-96 group bg-gray-800 p-2 flex flex-col border-2 rounded-xl text-white md:w-[800px]">
+            <div className="w-56 group bg-gray-800 p-2 flex flex-col border-2 rounded-xl text-white md:w-[800px]">
                 <div className="flex items-center justify-between">
                     <p>3. is the entry free for all? Who can attend it?</p>
                     <ExpandMoreIcon/>
@@ -38,7 +38,7 @@ function FAQ() {
                 </div>
 
             </div>
-            <div className="w-96 group bg-gray-800 p-2 flex flex-col border-2 rounded-xl text-white md:w-[800px]">
+            <div className="w-56 group bg-gray-800 p-2 flex flex-col border-2 rounded-xl text-white md:w-[800px]">
                 <div className="flex items-center justify-between">
                     <p>4. What should I do to attend Zenith?</p>
                     <ExpandMoreIcon/>
@@ -49,7 +49,7 @@ function FAQ() {
                 </div>
 
             </div>
-            <div className="w-96 group bg-gray-800 p-2 flex flex-col border-2 rounded-xl text-white md:w-[800px]">
+            <div className="w-56 group bg-gray-800 p-2 flex flex-col border-2 rounded-xl text-white md:w-[800px]">
                 <div className="flex items-center justify-between">
                     <p>5. What I will get from Zenith?</p>
                     <ExpandMoreIcon/>
@@ -60,7 +60,7 @@ function FAQ() {
                 </div>
 
             </div>
-            <div className="w-96 group bg-gray-800 p-2 flex flex-col border-2 rounded-xl text-white md:w-[800px]">
+            <div className="w-56 group bg-gray-800 p-2 flex flex-col border-2 rounded-xl text-white md:w-[800px]">
                 <div className="flex items-center justify-between">
                     <p>6. Custom</p>
                     <ExpandMoreIcon/>

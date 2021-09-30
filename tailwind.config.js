@@ -5,6 +5,15 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
       extend: {
+        screens: {
+          'mobileS': '320px',
+          // => @media (min-width: 640px) { ... }
+    
+          'mobileM': '375px',
+          // => @media (min-width: 1024px) { ... }
+    
+          'dmobileL': '425px',
+        },
         backgroundImage: {
           'cosmos': "url('/animat.gif')",
         },
