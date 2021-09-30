@@ -23,7 +23,7 @@ function About() {
                 </div>
 
                 {/* animations */}
-                <div className="mr-5">
+                <div className="h-20 w-20 mr-5">
                     <lottie-player
                         id="firstLottie"
                         ref={ref}
@@ -33,7 +33,7 @@ function About() {
                         background="transparent"
                         speed="1"    
                         src="https://assets7.lottiefiles.com/packages/lf20_edzccurz.json"
-                        style={{ width: "300px", height: "300px" }}
+                        // style={{ width: "300px", height: "300px" }}
                         ></lottie-player>
                 </div>
                 
