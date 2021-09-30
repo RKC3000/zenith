@@ -19,15 +19,15 @@ function HomePage() {
                     speed="1"    
                     src="https://assets5.lottiefiles.com/packages/lf20_1cazwtnc.json"
                     // style={{ width: "1000px", height: "1000px", position: "absolute", left: "0", right: "0" }}
-                    style={{ width: "600px", height: "600px" }}
+                    style={{ width: "400px", height: "400px" }}
                     ></lottie-player>
             </div>
 
 
-            <div className="absolute left-[580px] text-white top-48 z-100">
-                <h1 className="text-6xl font-bold">Hello Hackers</h1>
+            <div className="absolute text-white md:left-[580px]  top-48 z-100">
+                <h1 className="text-lg md:text-6xl font-bold">Hello Hackers</h1>
 
-                <h2 className="text-7xl">Welcome the Zenith</h2>
+                <h2 className="text-lg md:text-7xl">Welcome the Zenith</h2>
             </div>
 
         </div>

@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function SpeakerCard() {
     return (
-        <section className="h-80 w-52 bg-[#F9D4FF] flex flex-col items-center justify-center border-2 border-[#42255D] mb-10 rounded-xl">
+        <section className="h-80 w-52 bg-[#321051] flex flex-col items-center justify-center border-2 border-[#42255D] mb-10 rounded-xl text-gray-200">
             {/* Image */}
             <div className="flex justify-center">    
                 <Image
@@ -24,7 +24,7 @@ function SpeakerCard() {
                 </p>
             </div>
             {/* socials */}
-            <section className="flex">
+            <section className="flex items-center">
                 <div>
                     <InstagramIcon />
                 </div>

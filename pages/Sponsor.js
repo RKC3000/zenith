@@ -2,11 +2,12 @@ import Image from "next/image";
 
 function Sponsor() {
     return (
-        <div id="sponsors" className="min-h-screen flex flex-col items-center space-y-10">
-            <h1 className="text-4xl font-bold underline">Our Sponsors</h1>
+        <div id="sponsors" className="min-h-screen flex flex-col">
+            <h1 className="text-4xl font-bold ml-20 underline">Our </h1>
+            <h1 className="text-6xl font-bold ml-20 underline">Sponsors</h1>
 
             <div className="flex flex-col items-center justify-between space-y-20">
-                <div>
+                <div className="w-48">
                     <Image
                         src="/sawo-labs.png"
                         alt="Sawo Labs"
@@ -15,7 +16,7 @@ function Sponsor() {
                     />
                 </div>
 
-                <div>
+                <div className="w-48">
                     <Image
                         src="/wazirx.png"
                         alt="WazirX"
