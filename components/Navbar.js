@@ -31,7 +31,7 @@ function Navbar() {
                 <MenuIcon />
             </button>
             <div
-                className={`${ active ? '' : 'hidden'} w-full flex flex-col items-center justify-center text-md space-x-4  lg:inline-flex md: text-lg`}
+                className={`${ active ? '' : 'hidden'} w-full flex flex-col items-center justify-center text-md space-x-4 lg:inline-flex md: text-lg`}
             >
                 
                     <a href="#about" className="text-white cursor-pointer">About</a>
