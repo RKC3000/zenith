@@ -8,7 +8,7 @@ function HomePage() {
 
     return (
         <div className="min-h-screen bg-center flex items-center mt-5">
-            <div className="absolute w-44 md:w-[95%] h-full top-10  ">
+            <div className="absolute w-80 md:w-[95%] h-full top-16 ">
                 <lottie-player
                     id="firstLottie"
                     ref={ref}
@@ -23,10 +23,16 @@ function HomePage() {
             </div>
 
 
-            <div className="absolute text-white left-[150px] top-48 md:left-[580px] top-48 z-100">
-                <h1 className="text-lg md:text-6xl font-bold">Hello Hackers</h1>
-
-                <h2 className="text-lg md:text-7xl">Welcome the Zenith</h2>
+            <div className="absolute flex flex-col justify-evenly text-white left-[70px] top-20 md:left-[580px] z-100">
+                <div className="mb-2">
+                    <h1 className="text-2xl md:text-6xl font-bold">Hello Hackers</h1>
+                    <h2 className="text-2xl md:text-7xl">Welcome the Zenith</h2>
+                </div>
+                
+                <div className="flex space-x-2">
+                    <button className="p-1 border-2 rounded-lg">Discord</button>
+                    <button className="p-1 border-2 rounded-lg">Register</button>
+                </div>
             </div>
 
         </div>
