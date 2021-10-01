@@ -1,12 +1,12 @@
-import Head from 'next/head';
-import Navbar from '../components/Navbar';
-import About from './About';
-import Contact from './Contact';
-import FAQ from './FAQ';
-import HomePage from './HomePage';
-import Schedule from './Schedule';
-import Speakers from './Speakers';
-import Sponsor from './Sponsor';
+import Head from "next/head";
+import Navbar from "../components/Navbar";
+import About from "./About";
+import Contact from "./Contact";
+import FAQ from "./FAQ";
+import HomePage from "./HomePage";
+import Schedule from "./Schedule";
+import Speakers from "./Speakers";
+import Sponsor from "./Sponsor";
 
 function Home() {
   return (
@@ -27,11 +27,10 @@ function Home() {
         <Speakers />
         {/* <Sponsor /> */}
         <FAQ />
-        <Contact/>
+        <Contact />
       </main>
-      
     </div>
-  )
+  );
 }
 
 export default Home;

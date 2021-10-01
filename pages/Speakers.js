@@ -1,35 +1,36 @@
 import SpeakerCard from "../components/SpeakerCard";
 
 function Speakers() {
-    return (
-        <div id="speakers" className="min-h-screen flex flex-col items-center justify-center p-2 m-2 space-y-8">
-            {/* Heading */}
-            <div>
-                    <div className="text-center">
-                        <h2 className="text-3xl font-bold underline">Speakers and Judges</h2>
-                    </div>
-            </div>
-
-            {/* Cards */}
-            {/* <div className="grid grid-flow-row grid-cols-3 grid-rows-3 gap-40"> */}
-            <div className="w-[235px] ml-7 flex flex-col flex-wrap items-center justify-center space-x-16 overflow-scroll scrollbar-thin lg:w-[240px] md:w-[1030px] h-[400px] ">
-                <SpeakerCard />
-                <SpeakerCard />
-                <SpeakerCard />
-                <SpeakerCard />
-                <SpeakerCard />
-                <SpeakerCard />
-            </div>
+  return (
+    <div
+      id="speakers"
+      className="min-h-screen flex flex-col items-center justify-center p-2 m-2 space-y-8"
+    >
+      {/* Heading */}
+      <div>
+        <div className="text-center">
+          <h2 className="text-3xl font-bold underline">Speakers and Judges</h2>
         </div>
+      </div>
 
-
-        
-    )
+      {/* Cards */}
+      {/* <div className="grid grid-flow-row grid-cols-3 grid-rows-3 gap-40"> */}
+      <div className="w-[235px] ml-7 flex flex-col flex-wrap items-center justify-center space-x-16 overflow-scroll scrollbar-thin lg:w-[240px] md:w-[1030px] h-[400px] ">
+        <SpeakerCard />
+        <SpeakerCard />
+        <SpeakerCard />
+        <SpeakerCard />
+        <SpeakerCard />
+        <SpeakerCard />
+      </div>
+    </div>
+  );
 }
 
 export default Speakers;
 
-{/* <section id="speakers" className="bg-primary">
+{
+  /* <section id="speakers" className="bg-primary">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">
@@ -59,4 +60,5 @@ export default Speakers;
 
                 </div>
             </div>
-        </section> */}
+        </section> */
+}

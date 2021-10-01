@@ -1,9 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@font-face {
+  font-family: "google";
+  src: url(https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2);
+}
 @layer components {
-  body{
+  body {
     width: 100%;
   }
   .back {
@@ -11,7 +14,105 @@
     background-image: url("/cosmos.jpg");
     background-repeat: no-repeat;
   }
-  
+  /*Used flex-box for better box placement*/
+  .header__main1 {
+    /*whole navbar*/
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+  }
+  .header__main {
+    display: flex;
+    background-color: #030035;
+    height: fit-content;
+    margin: 20px 0;
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    box-shadow: 5px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    font-family: "google";
+    width: 95%;
+    border-radius: 30px;
+  }
+  .header__menu {
+    /*main block of all the links*/
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 20px;
+  }
+  .nav__links {
+    /*individual links*/
+    margin-left: 20px;
+    padding: 7px 12px 7px 12px;
+    /*border: 1px solid;*/
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    /*font-weight:700;*/
+    text-decoration: none;
+    color: white;
+  }
+  .nav__links:hover {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+  }
+  .header__logo {
+    /*dsc logo on the navbar*/
+    padding-left: 20px;
+  }
+  .image {
+    object-fit: contain;
+    height: 40px;
+    padding: 5px;
+  }
+  .header__burger {
+    /*the burger navbar when layout is changed*/
+    display: none;
+  }
+
+  @media screen and (max-width: 750px) {
+    /*when width is less than 750px below defined properties will be enabled*/
+    .header__menu {
+      display: none;
+    }
+    .header__burger {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      padding-left: 20px;
+    }
+    .header__burger > i {
+      margin-right: 5px;
+      padding: 7px 12px 7px 12px;
+      border: 1px solid #030035;
+    }
+    .header__burger > i:hover {
+      border-radius: 5px;
+      border: 1px solid gray;
+      padding: 7px 12px 7px 12px;
+    }
+    .resp {
+      display: flex;
+      width: 100%;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .header__main.responsive {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+    }
+    .header__menu.responsive {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
   /* .title {
     position: relative;
     margin-top: 30px;
@@ -274,4 +375,3 @@
     }
   } */
 }
-
