@@ -7,6 +7,7 @@ import HomePage from "./HomePage";
 import Schedule from "./Schedule";
 import Speakers from "./Speakers";
 import Sponsor from "./Sponsor";
+import Script from "next/script";
 
 function Home() {
   return (
@@ -23,7 +24,7 @@ function Home() {
       </div>
       <main>
         <About />
-        {/* <Schedule/> */}
+        <Schedule />
         <Speakers />
         {/* <Sponsor /> */}
         <FAQ />
