@@ -115,36 +115,37 @@
 
   /* For timeline */
   .intro {
-    background: #1f1c3b;
-    padding: 80px 0;
+    /* background: #1f1c3b; */
+    /* padding: 80px 0; */
   }
   .container {
-    width: 90%;
+    /* width: 90%; */
     /* max-width: 1180px; */
-    max-width: 1180px;
-    margin: 0 auto;
-    text-align: center;
+    /* max-width: 1180px; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
   }
   .container > h1 {
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    font-size: 60px;
-    border: 5px solid #fff;
-    border-radius: 15px;
-    padding: 10px;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 10px; */
+    /* font-size: 60px; */
+    /* border: 5px solid #fff; */
+    /* border-radius: 15px; */
+    /* padding: 10px; */
   }
+
   .timeline ul {
-    background: #bebceb;
-    padding: 50px 0;
+    /* background: #bebceb;
+    padding: 50px 0; */
   }
 
   .timeline ul li {
-    list-style-type: none;
-    position: relative;
+    /* list-style-type: none; */
+    /* position: relative;
     width: 6px;
     margin: 0 auto;
     padding-top: 50px;
-    background: #030035;
+    background: #030035; */
   }
 
   .timeline ul li::after {

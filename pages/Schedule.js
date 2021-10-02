@@ -1,15 +1,39 @@
+if (typeof window === "object") {
+  const items = document.querySelectorAll(".timeline li");
+  // Finding the element is in view port or not
+  let isElementInViewPort = function (element) {
+    const rect = element.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  };
+  // Callback function for every list item
+  let callbackFunc = function () {
+    for (let i = 0; i < items.length; i++)
+      if (isElementInViewPort(items[i])) items[i].classList.add("in-view");
+  };
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+}
+
 function Schedule() {
   return (
     <div id="schedule" className="min-h-screen">
-      <header className="intro">
-        <div className="container">
-          <h1>ZENITH TIMELINE &darr;</h1>
+      <header className="bg-[#1f1c3b] px-0 py-20">
+        <div className="w-[90%] mt-0 mb-0 mr-auto ml-auto text-center">
+          <h1 className="uppercase text-4xl border-[5px] border-white rounded-2xl p-[10px] tracking-[10px] ">
+            ZENITH TIMELINE &darr;
+          </h1>
         </div>
       </header>
 
       <section className="timeline">
-        <ul>
-          <li>
+        <ul className="bg-[#bebceb] px-0 py-[50px] ">
+          <li className="relative w-[6px] my-0 mx-auto bg-[#030035] pt-[50px] list-none">
             <div className="container-card">
               <time>Inauguration</time>
               <p>
@@ -23,7 +47,7 @@ function Schedule() {
               </p>
             </div>
           </li>
-          <li>
+          <li className="relative w-[6px] my-0 mx-auto bg-[#030035] pt-[50px] list-none">
             <div className="container-card">
               <time>Web Development Workshop (Beginner to Intermediate)</time>
               <p>
@@ -38,7 +62,7 @@ function Schedule() {
               </p>
             </div>
           </li>
-          <li>
+          <li className="relative w-[6px] my-0 mx-auto bg-[#030035] pt-[50px] list-none">
             <div className="container-card">
               <time>Open mic</time>
               <p>
@@ -52,7 +76,7 @@ function Schedule() {
               </p>
             </div>
           </li>
-          <li>
+          <li className="relative w-[6px] my-0 mx-auto bg-[#030035] pt-[50px] list-none">
             <div className="container-card">
               <time>Game tournament</time>
               <p>
@@ -65,7 +89,7 @@ function Schedule() {
               </p>
             </div>
           </li>
-          <li>
+          <li className="relative w-[6px] my-0 mx-auto bg-[#030035] pt-[50px] list-none">
             <div className="container-card">
               <time>Machine Learning Workshop</time>
               <p>
@@ -80,7 +104,7 @@ function Schedule() {
               </p>
             </div>
           </li>
-          <li>
+          <li className="relative w-[6px] my-0 mx-auto bg-[#030035] pt-[50px] list-none">
             <div className="container-card">
               <time>Treasure Hunt</time>
               <p>
@@ -91,7 +115,7 @@ function Schedule() {
               </p>
             </div>
           </li>
-          <li>
+          <li className="relative w-[6px] my-0 mx-auto bg-[#030035] pt-[50px] list-none">
             <div className="container-card">
               <time>Application Development Workshop</time>
               <p>
@@ -107,7 +131,7 @@ function Schedule() {
               </p>
             </div>
           </li>
-          <li>
+          <li className="relative w-[6px] my-0 mx-auto bg-[#030035] pt-[50px] list-none">
             <div className="container-card">
               <time>Hackathon</time>
               <p>
@@ -133,7 +157,7 @@ function Schedule() {
               </p>
             </div>
           </lNamei>
-          <li>
+          <li className="relative w-[6px] my-0 mx-auto bg-[#030035] pt-[50px] list-none">
             <div className="container-card">
               <time>Ignis</time>
               <p>
