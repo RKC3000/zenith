@@ -7,7 +7,7 @@ function Speakers() {
       className="min-h-screen flex flex-col items-center justify-center p-2 m-2 space-y-8"
     >
       {/* Heading */}
-      <div>
+      <div className="mt-28">
         <div className="text-center">
           <h2 className="text-3xl font-bold underline">Speakers and Judges</h2>
         </div>
