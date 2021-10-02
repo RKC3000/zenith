@@ -49,6 +49,9 @@ function Navbar() {
             <a href="#schedule" className="nav__links">
               <span>Schedule</span>
             </a>
+            <a href="#" className="nav__links">
+              <span>Hackthon</span>
+            </a>
             <a href="#speakers" className="nav__links">
               <span>Speakers</span>
             </a>
@@ -58,7 +61,7 @@ function Navbar() {
             <a href="#faq" className="nav__links">
               <span>FAQ</span>
             </a>
-            <a href="#contact" className="nav__links">
+            <a href="#footer" className="nav__links">
               <span>ContactUs</span>
             </a>
           </div>

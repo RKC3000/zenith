@@ -33,10 +33,10 @@ function HomePage() {
 
         <div className="flex space-x-2">
           <button className="p-1 border-2 rounded-lg hover:bg-white hover:text-black">
-            <a>Discord</a>
+            <a>Register</a>
           </button>
           <button className="p-1 border-2 rounded-lg hover:bg-white hover:text-black">
-            <a>Register</a>
+            <a>Discord</a>
           </button>
         </div>
       </div>
