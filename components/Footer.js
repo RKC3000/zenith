@@ -51,10 +51,16 @@ const Footer = () => {
                   >
                     <span>Schedule</span>
                   </a>
-                  <a href="#speaker" className="text-white hover:text-blue-300">
+                  <a
+                    href="#speakers"
+                    className="text-white hover:text-blue-300"
+                  >
                     <span>Speakers</span>
                   </a>
-                  <a href="#sponsor" className="text-white hover:text-blue-300">
+                  <a
+                    href="#sponsors"
+                    className="text-white hover:text-blue-300"
+                  >
                     <span>Sponsors</span>
                   </a>
                   <a href="#faq" className="text-white hover:text-blue-300">
