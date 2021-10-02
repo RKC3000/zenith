@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useRef } from "react";
 
 function HomePage() {
@@ -12,17 +13,19 @@ function HomePage() {
       className="min-h-screen flex-col-reverse md:flex-row bg-center flex items-center "
     >
       <div className="w-80">
-        <lottie-player
-          id="firstLottie"
-          ref={ref}
-          autoplay
-          loop
-          mode="normal"
-          background="transparent"
-          speed="1"
-          src="https://assets5.lottiefiles.com/packages/lf20_1cazwtnc.json"
-          // style={{ width: "1000px", height: "1000px", position: "absolute", left: "0", right: "0" }}
-        ></lottie-player>
+        <Link href="/" passHref>
+          <lottie-player
+            id="firstLottie"
+            ref={ref}
+            autoplay
+            loop
+            mode="normal"
+            background="transparent"
+            speed="1"
+            src="https://assets5.lottiefiles.com/packages/lf20_1cazwtnc.json"
+            // style={{ width: "1000px", height: "1000px", position: "absolute", left: "0", right: "0" }}
+          ></lottie-player>
+        </Link>
       </div>
 
       <div className="flex flex-col text-white lg:pl-16">
@@ -33,10 +36,10 @@ function HomePage() {
 
         <div className="flex space-x-2">
           <button className="p-1 border-2 rounded-lg hover:bg-white hover:text-black">
-            <a>Register</a>
+            <a href="https://forms.office.com/r/SwAGhnSB6C">Register</a>
           </button>
           <button className="p-1 border-2 rounded-lg hover:bg-white hover:text-black">
-            <a>Discord</a>
+            <a href="https://discord.gg/YCcD37fTyB">Discord</a>
           </button>
         </div>
       </div>

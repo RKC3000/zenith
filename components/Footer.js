@@ -16,11 +16,6 @@ const Footer = () => {
                 height={200}
               />
             </span>
-            <span>
-              <h1>Aniket Kumar Sinha</h1>
-              <h3>6203961808</h3>
-              <h4>sinhaaniket32@gmail.com</h4>
-            </span>
             <span className="md:p-10 flex flex-col md:pl-24">
               <span>
                 <p className="font-bold">About</p>

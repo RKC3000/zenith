@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 
 function Navbar() {
@@ -46,12 +45,14 @@ function Navbar() {
             <a href="#about" className="nav__links">
               <span>About</span>
             </a>
-            <a href="#schedule" className="nav__links">
+            {/* <a href="#schedule" className="nav__links">
               <span>Schedule</span>
-            </a>
-            <a href="#" className="nav__links">
-              <span>Hackthon</span>
-            </a>
+            </a> */}
+            <Link href="/hackathon">
+              <a className="nav__links">
+                <span>Hackthon</span>
+              </a>
+            </Link>
             <a href="#speakers" className="nav__links">
               <span>Speakers</span>
             </a>
