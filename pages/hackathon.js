@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import React, { useRef } from "react";
 
-function hackathon() {
+function Hackathon() {
   const ref = useRef(null);
   React.useEffect(() => {
     import("@lottiefiles/lottie-player");
@@ -60,4 +60,4 @@ function hackathon() {
   );
 }
 
-export default hackathon;
+export default Hackathon;
