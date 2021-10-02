@@ -25,7 +25,7 @@ function Schedule() {
     <div id="schedule" className="min-h-screen">
       <header className="bg-[#1f1c3b] px-0 py-20">
         <div className="w-[90%] mt-0 mb-0 mr-auto ml-auto text-center">
-          <h1 className="uppercase text-4xl border-[5px] border-white rounded-2xl p-[10px] tracking-[10px] ">
+          <h1 className="uppercase text-4xl border-[5px] border-white text-white rounded-2xl p-[10px] tracking-[10px] ">
             ZENITH TIMELINE &darr;
           </h1>
         </div>
