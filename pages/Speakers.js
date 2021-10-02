@@ -15,7 +15,7 @@ function Speakers() {
       {/* Heading */}
       <div className="mt-28">
         <div className="text-center">
-          <h2 className="text-3xl font-bold underline">Speakers and Judges</h2>
+          <h2 className="text-3xl font-bold underline">Speakers</h2>
         </div>
       </div>
 
