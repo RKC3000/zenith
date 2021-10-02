@@ -113,6 +113,9 @@ const Footer = () => {
           <div className="mt-4 text-gray-300 text-center font-bold text-sm">
             © 2021 GDSC-BKBIET All Rights Reserved
           </div>
+          <div className="text-6xl text-red-600 text-center">
+            UNDER MAINTENANCE
+          </div>
         </footer>
       </div>
     </>
