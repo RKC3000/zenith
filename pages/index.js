@@ -24,7 +24,7 @@ function Home() {
       </div>
       <main>
         <About />
-        <Schedule />
+        {/* <Schedule /> */}
         <Speakers />
         {/* <Sponsor /> */}
         <FAQ />
