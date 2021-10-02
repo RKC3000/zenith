@@ -7,21 +7,17 @@ function About() {
   });
 
   return (
-    <div id="about" className="min-h-screen flex flex-col bg-[#1b0038]">
+    <div id="about" className="zen-container flex-col bg-[#1b0038]">
       {/* <h1 className="text-lg font-bold text-white lg:text-4xl ml-20 mb-3 mt-5">What is</h1>
             <h1 className="text-lg font-bold text-white lg:text-6xl ml-20 mb-8">Zenith?</h1> */}
-      <div className="mt-28">
-        <h1 className="text-lg font-extrabold text-white ml-5 lg:text-4xl">
-          What is
-        </h1>
-        <h1 className="text-lg font-extrabold text-white ml-5 lg:text-6xl">
-          Zenith?
-        </h1>
+      <div className="w-full flex items-start flex-col">
+        <h1 className=" font-extrabold text-white ml-5 text-4xl">What is</h1>
+        <h1 className="font-extrabold text-white ml-5 text-6xl">Zenith?</h1>
       </div>
 
-      <div className="flex items-center justify-evenly p-3">
+      <div className="flex items-center justify-around w-full p-3 mt-4 md:mt-0 space-x-4">
         {/* text */}
-        <div className="md:w-[500px]">
+        <div className="md:w-[60%]">
           <p className="text-sm text-white font-medium md:text-lg">
             Zenith-the couth and technical event of BK Birla Institute of
             Engineering &Technology. It’s a wrap-up of knowledge, enthusiasm,
@@ -38,18 +34,20 @@ function About() {
         </div>
 
         {/* animations */}
-        <div className="w-0 sm:w-96 object-contain mr-5">
-          <lottie-player
-            id="firstLottie"
-            ref={ref}
-            autoplay
-            loop
-            mode="normal"
-            background="transparent"
-            speed="1"
-            src="https://assets7.lottiefiles.com/packages/lf20_edzccurz.json"
-            // style={{ width: "300px", height: "300px" }}
-          ></lottie-player>
+        <div className="md:w-[40%] flex items-center justify-end">
+          <div className="w-0 sm:w-96 object-contain mr-5">
+            <lottie-player
+              id="firstLottie"
+              ref={ref}
+              autoplay
+              loop
+              mode="normal"
+              background="transparent"
+              speed="1"
+              src="https://assets7.lottiefiles.com/packages/lf20_edzccurz.json"
+              // style={{ width: "300px", height: "300px" }}
+            ></lottie-player>
+          </div>
         </div>
       </div>
     </div>
