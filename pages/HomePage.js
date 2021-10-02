@@ -9,9 +9,9 @@ function HomePage() {
   return (
     <div
       id="home"
-      className="min-h-screen flex-col-reverse md:flex-row bg-center flex items-center "
+      className="min-h-screen flex-col-reverse md:flex-row bg-center flex items-center justify-center w-full "
     >
-      <div className="w-80">
+      <div className="w-[40vh] md:w-[30vw]">
         <lottie-player
           id="firstLottie"
           ref={ref}
