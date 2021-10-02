@@ -12,22 +12,6 @@ function HomePage() {
       id="home"
       className="min-h-screen flex-col-reverse md:flex-row bg-center flex items-center justify-center w-full "
     >
-<<<<<<< HEAD
-      <div className="w-80">
-        <Link href="/" passHref>
-          <lottie-player
-            id="firstLottie"
-            ref={ref}
-            autoplay
-            loop
-            mode="normal"
-            background="transparent"
-            speed="1"
-            src="https://assets5.lottiefiles.com/packages/lf20_1cazwtnc.json"
-            // style={{ width: "1000px", height: "1000px", position: "absolute", left: "0", right: "0" }}
-          ></lottie-player>
-        </Link>
-=======
       <div className="w-[40vh] md:w-[30vw]">
         <lottie-player
           id="firstLottie"
@@ -40,7 +24,6 @@ function HomePage() {
           src="https://assets5.lottiefiles.com/packages/lf20_1cazwtnc.json"
           // style={{ width: "1000px", height: "1000px", position: "absolute", left: "0", right: "0" }}
         ></lottie-player>
->>>>>>> ee02af654bf14c64077f54897faa94b150475c4d
       </div>
 
       <div className="flex flex-col text-white lg:pl-16">
