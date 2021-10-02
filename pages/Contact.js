@@ -23,14 +23,6 @@ function Contact() {
         </div>
         <h1 className="font-medium">Anshika Gupta</h1>
       </div>
-
-      <div>
-        {/* All right reserved */}
-        <div className="w-full bg-[#030035] text-white text-center">
-          Copy right GDSC BKBIET
-        </div>
-      </div>
-
       {/* map */}
       {/* <div className=" h-[310px] w-[310px] border-2 border-black">
                 <Iframe
