@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import About from "./About";
 import Contact from "./Contact";
@@ -28,7 +29,8 @@ function Home() {
         <Speakers />
         {/* <Sponsor /> */}
         <FAQ />
-        <Contact />
+        {/* <Contact /> */}
+        <Footer />
       </main>
     </div>
   );
