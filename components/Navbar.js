@@ -25,15 +25,17 @@ function Navbar() {
       <div className="header__main1 flex items-center justify-center">
         <div className="header__main" id="myTopnav">
           <div className="resp">
-            <div className="header__logo">
-              <Image
-                className="image"
-                src="/zenith-logo.png"
-                alt="logo"
-                width={60}
-                height={60}
-              />
-            </div>
+            <a href="#home">
+              <div className="header__logo">
+                <Image
+                  className="image"
+                  src="/zenith-logo.png"
+                  alt="logo"
+                  width={60}
+                  height={60}
+                />
+              </div>
+            </a>
             <div className="header__burger" onClick={RespMenu}>
               <i className="text-white">
                 <MenuIcon />
@@ -47,10 +49,10 @@ function Navbar() {
             <a href="#schedule" className="nav__links">
               <span>Schedule</span>
             </a>
-            <a href="#speaker" className="nav__links">
+            <a href="#speakers" className="nav__links">
               <span>Speakers</span>
             </a>
-            <a href="#sponsor" className="nav__links">
+            <a href="#sponsors" className="nav__links">
               <span>Sponsors</span>
             </a>
             <a href="#faq" className="nav__links">

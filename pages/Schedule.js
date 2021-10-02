@@ -1,189 +1,153 @@
 function Schedule() {
-    return (
-        <section className="min-h-screen">
+  return (
+    <div id="schedule" className="min-h-screen">
+      <header className="intro">
+        <div className="container">
+          <h1>ZENITH TIMELINE &darr;</h1>
+        </div>
+      </header>
 
-            <h1>Schedule</h1>
-
-            <div className="title">
-                <h2>Responsive Vertical Timeline</h2>
-                 <p><a href="https://htmlcodex.com/css-timeline">More timeline designs</a></p>
+      <section className="timeline">
+        <ul>
+          <li>
+            <div className="container-card">
+              <time>Inauguration</time>
+              <p>
+                (22nd October 10 am – 12am) Time tickles and finally second
+                arrives to reach our peak. So, let’s begin with our first Tech
+                fest organized by GDSC BKBIET. We would invite our honorable
+                chief guest “The Director” (Dr. S M Prasanna Kumar), and our
+                Principal Academics (Dr. L Solanki) and teachers. Opening with
+                the Classical Dance and lightening by our Director sir and
+                revelation of events conducted in our fest.
+              </p>
             </div>
-            <div className="timeline">
-                <div className="container">
-                    <div className="row">
-                    <div className="col-lg-12">
-                        <div className="timeline-container">
-                        <div className="timeline-end">
-                            <p>Now</p>
-                        </div>
-                        <div className="timeline-continue">
-
-                            <div className="row timeline-right">
-                            <div className="col-md-6">
-                                <p className="timeline-date">
-                                01 Jun 2020
-                                </p>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="timeline-box">
-                                <div className="timeline-icon">
-                                    <i className="fa fa-gift"></i>
-                                </div>
-                                <div className="timeline-text">
-                                    <h3>Lorem ipsum dolor</h3>
-                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-
-                            <div className="row timeline-left">
-                            <div className="col-md-6 d-md-none d-block">
-                                <p className="timeline-date">
-                                01 Jan 2020
-                                </p>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="timeline-box">
-                                <div className="timeline-icon d-md-none d-block">
-                                    <i className="fa fa-business-time"></i>
-                                </div>
-                                <div className="timeline-text">
-                                    <h3>Lorem ipsum dolor</h3>
-                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
-                                </div>
-                                <div className="timeline-icon d-md-block d-none">
-                                    <i className="fa fa-business-time"></i>
-                                </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6 d-md-block d-none">
-                                <p className="timeline-date">
-                                01 Jan 2020
-                                </p>
-                            </div>
-                            </div>
-
-                            <div className="row">
-                            <div className="col-12">
-                                <div className="timeline-year">
-                                <p>2020</p>
-                                </div>
-                            </div>
-                            </div>
-
-                            <div className="row timeline-right">
-                            <div className="col-md-6">
-                                <p className="timeline-date">
-                                01 Dec 2019
-                                </p>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="timeline-box">
-                                <div className="timeline-icon">
-                                    <i className="fa fa-briefcase"></i>
-                                </div>
-                                <div className="timeline-text">
-                                    <h3>Lorem ipsum dolor</h3>
-                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-
-                            <div className="row timeline-left">
-                            <div className="col-md-6 d-md-none d-block">
-                                <p className="timeline-date">
-                                01 Sep  2019
-                                </p>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="timeline-box">
-                                <div className="timeline-icon d-md-none d-block">
-                                    <i className="fa fa-cogs"></i>
-                                </div>
-                                <div className="timeline-text">
-                                    <h3>Lorem ipsum dolor</h3>
-                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
-                                </div>
-                                <div className="timeline-icon d-md-block d-none">
-                                    <i className="fa fa-cogs"></i>
-                                </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6 d-md-block d-none">
-                                <p Nameclass="timeline-date">
-                                01 Sep  2019
-                                </p>
-                            </div>
-                            </div>
-
-                            <div className="row timeline-right">
-                            <div className="col-md-6">
-                                <p className="timeline-date">
-                                01 Jun 2019
-                                </p>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="timeline-box">
-                                <div className="timeline-icon">
-                                    <i className="fa fa-running"></i>
-                                </div>
-                                <div className="timeline-text">
-                                    <h3>Lorem ipsum dolor</h3>
-                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-
-                            <div className="row timeline-left">
-                            <div className="col-md-6 d-md-none d-block">
-                                <p className="timeline-date">
-                                01 Mar 2019
-                                </p>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="timeline-box">
-                                <div className="timeline-icon d-md-none d-block">
-                                    <i className="fa fa-home"></i>
-                                </div>
-                                <div className="timeline-text">
-                                    <h3>Lorem ipsum dolor</h3>
-                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
-                                </div>
-                                <div className="timeline-icon d-md-block d-none">
-                                    <i className="fa fa-home"></i>
-                                </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6 d-md-block d-none">
-                                <p className="timeline-date">
-                                01 Mar 2019
-                                </p>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="timeline-start">
-                            <p>Launch</p>
-                        </div>
-                        <div className="timeline-launch">
-                            <div className="timeline-box">
-                            <div className="timeline-text">
-                                <h3>Launched our company on 01 Jan 2019</h3>
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
+          </li>
+          <li>
+            <div className="container-card">
+              <time>Web Development Workshop (Beginner to Intermediate)</time>
+              <p>
+                (22nd October 3pm - 6pm) Web Development is an important organ
+                of technology develops project and help us in our own events
+                commodities and fest. One does web development to gain our
+                knowledge. We are planning to invite GOOGLE DEVELOPER EXPERT in
+                digital mode to explain important aspects of web development. As
+                digital mode ends, other expert will carry workshop which would
+                end by investing their individual hard work in creating project.
+                Speaker- Sameer Saini
+              </p>
             </div>
-            
-        </section>
-        
-    )
+          </li>
+          <li>
+            <div className="container-card">
+              <time>Open mic</time>
+              <p>
+                (22nd October 6 pm – 8pm) There are specific moments where
+                people indulge in certain thoughts which give rise to creation
+                of poetry and personified literature. Creations are one of a
+                kind as stream of thoughts never match with each other. We want
+                to drag that talent and explore within our bright heads to
+                create openness and gist of ideology. It is basically a poetical
+                session to explore different hobbies that one persists.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="container-card">
+              <time>Game tournament</time>
+              <p>
+                (22nd October 9 pm – 11 pm) Gaming industry with a new sensation
+                which can also drive to make through their diving. It gives a
+                different abnormal rush and kicks to one’s enjoyment and help
+                them to release their stress. It is a hobby for one and
+                enjoyment so, we want to create healthy and e-gaming program.
+                Game- BGMI
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="container-card">
+              <time>Machine Learning Workshop</time>
+              <p>
+                (23rd October 10 am – 1pm) It is a type of artificial
+                intelligence which allow a software to become more accurate at
+                predicting outcomes with being explicitly program to do so. It
+                uses different types of data to predict new output value. We are
+                planning to invite GOOGLE DEVELOPER EXPERT in digital mode to
+                explain importance of machine learning as digital mode and our
+                campus expert will train module project of machine learning.
+                Speaker- Ishan Agrawal
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="container-card">
+              <time>Treasure Hunt</time>
+              <p>
+                (23rd October 5pm – 7pm) It is a fun event to explore our
+                college as students never get time to do so. So that they can
+                have convivial moments with their friends and remember the
+                places of college.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="container-card">
+              <time>Application Development Workshop</time>
+              <p>
+                (23rd October 3pm – 5pm) It refers to the creation of computer
+                application used on mobile devices such as smart phone and smart
+                watches. Flutter is the industrial king of industrial
+                application which will be used by our speaker to create amazing
+                apps in this workshop. We are planning to invite GOOGLE
+                DEVELOPER EXPERT in digital mode to explain aspects of
+                application development as digital mode and our campus expert
+                will train the students that would be shown in one’s hard work.
+                Speaker- Shekhar Agrawal
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="container-card">
+              <time>Hackathon</time>
+              <p>
+                (23rd October 9pm – 9am) A social coding event that endures the
+                mind of one to create an idea and build into an awesome protype
+                in a short period of time. It creates functioning software or
+                hardware by the end of the event it challenges attendees to
+                exhibit their ability to innovate and create compelling,
+                real-world solution utilizing the latest devices and technology.
+                It tends to focus on the programming languages used operating
+                system and the demographic group of the programmers.
+              </p>
+            </div>
+          </li>
+          <lNamei>
+            <div className="container-card">
+              <time>Project Showcase and closing Ceremony</time>
+              <p>
+                (24thOctober 4PM - 7PM) The hard work of Hackathon done by
+                individuals would be represented to our expected judges Mr.
+                Sanjeev Sultania, Mr. Gautam Jangid and prizes would be
+                according to the project.
+              </p>
+            </div>
+          </lNamei>
+          <li>
+            <div className="container-card">
+              <time>Ignis</time>
+              <p>
+                (24th October 9PM – 11PM) After hectic and joyful hours of
+                Zenith fest we need to give a proper farewell so we want to end
+                it with a lot of game and interaction between Seniors and
+                Juniors which comprises of fun talk and jokes.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  );
 }
 
 export default Schedule;

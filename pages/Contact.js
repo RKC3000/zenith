@@ -23,7 +23,6 @@ function Contact() {
         </div>
         <h1 className="font-medium">Anshika Gupta</h1>
       </div>
-
       {/* map */}
       {/* <div className=" h-[310px] w-[310px] border-2 border-black">
                 <Iframe
