@@ -18,6 +18,7 @@
   .back {
     background-color: #e4d6f5;
     background: url("/cosmos.png") center center no-repeat;
+    background-attachment: fixed;
   }
   /*Used flex-box for better box placement*/
   .header__main1 {
