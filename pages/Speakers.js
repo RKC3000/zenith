@@ -10,17 +10,17 @@ function Speakers() {
   return (
     <div
       id="speakers"
-      className="min-h-screen flex flex-col items-center justify-center p-2 m-2 space-y-8"
+      className="zen-container min-h-screen flex flex-col items-center justify-center p-2 m-2 space-y-8"
     >
       {/* Heading */}
       <div className="mt-28">
-        <div className="text-center">
-          <h2 className="text-3xl font-bold underline">Speakers</h2>
+        <div className="text-center mb-10">
+          <h2 className="text-6xl font-bold">Speakers</h2>
         </div>
       </div>
 
       {/* Cards */}
-      <div className="flex items-center justify-evenly md:w-[1200px] ">
+      <div className="flex items-center  justify-evenly md:w-[1200px] ">
         <ArrowBackIosIcon />
         <div className="w-[235px] ml-7 flex flex-col flex-wrap items-center justify-center space-x-16 overflow-scroll scrollbar-thin lg:w-3/5 md:w-3/5 h-[400px] ">
           {SpeakerData.map((data) => (
