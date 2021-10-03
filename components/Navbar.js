@@ -24,8 +24,8 @@ function Navbar() {
       <div className="header__main1 flex items-center justify-center">
         <div className="header__main" id="myTopnav">
           <div className="resp">
-            <a href="#home">
-              <div className="header__logo">
+            <Link href="/" passHref>
+              <div className="header__logo cursor-pointer">
                 <Image
                   className="image"
                   src="/zenith-logo.png"
@@ -34,7 +34,7 @@ function Navbar() {
                   height={60}
                 />
               </div>
-            </a>
+            </Link>
             <div className="header__burger" onClick={RespMenu}>
               <i className="text-white">
                 <MenuIcon />
