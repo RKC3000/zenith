@@ -42,13 +42,13 @@ const Days = ({ day, times, titles }) => {
       </div>
       <div className="flex justify-center items-start w-full">
         <div id="time">
-          {times.map((a) => (
-            <Time start={a.start} end={a.end} />
+          {times.map((t) => (
+            <Time key={t.start} start={t.start} end={t.end} />
           ))}
         </div>
         <div id="title" className="w-[64%]">
-          {titles.map((a) => (
-            <Title title={a.title} category={a.cat} />
+          {titles.map((tt) => (
+            <Title key={tt.title} title={tt.title} category={tt.category} />
           ))}
         </div>
       </div>
@@ -63,7 +63,7 @@ const Schedule = () => {
         <div className="w-full flex flex-col justify-center items-center">
           <span className="text-6xl font-bold mb-16">Schedule</span>
           {ScheduleData.map((a) => (
-            <Days day={a.day} times={a.times} titles={a.titles} />
+            <Days key={a.day} day={a.day} times={a.times} titles={a.titles} />
           ))}
         </div>
       </div>

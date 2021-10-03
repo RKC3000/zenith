@@ -45,9 +45,9 @@ function Navbar() {
             <a href="#about" className="nav__links">
               <span>About</span>
             </a>
-            {/* <a href="#schedule" className="nav__links">
+            <a href="#schedule" className="nav__links">
               <span>Schedule</span>
-            </a> */}
+            </a>
             <Link href="/Hackathon">
               <a className="nav__links">
                 <span>Hackthon</span>
