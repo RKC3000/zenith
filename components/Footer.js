@@ -7,7 +7,7 @@ const Footer = () => {
       <div id="footer" className="flex items-center  justify-center p-4 mb-6 ">
         <footer className="bg-[#030035] p-10 pt-4 pl-24 pr-24 w-[90%]  rounded-lg drop-shadow-xl shadow-2xl">
           <div className="text-white flex space-y-10 md:space-x-24 flex-col md:flex-row">
-            <span className="p-10">
+            <span className="p-5">
               <Image
                 className="image"
                 src="/zenith-logo.png"
@@ -16,7 +16,16 @@ const Footer = () => {
                 height={200}
               />
             </span>
-            <span className="md:p-10 flex flex-col md:pl-24">
+            <div className="md:p-10 flex flex-col md:pl-24">
+              <h1 className="font-extrabold">Contact</h1>
+              <span>
+                <h1 className="font-bold">Aniket Kumar Sinha</h1>
+                <h3 className="font-normal">6203961808</h3>
+                <h6 className="font-normal">sinhaaniket32@gmail.com</h6>
+                <h1 className="font-bold">Ojas Sharma</h1>
+              </span>
+            </div>
+            {/* <span className="md:p-10 flex flex-col md:pl-24">
               <span>
                 <p className="font-bold">About</p>
                 <span className="flex flex-col mt-4 ml-2 space-y-1">
@@ -37,7 +46,7 @@ const Footer = () => {
                   </a>
                 </span>
               </span>
-            </span>
+            </span> */}
             <span className="md:p-10 flex flex-col ">
               <span>
                 <p className="font-bold">Explore</p>
@@ -75,7 +84,7 @@ const Footer = () => {
             <div className="md:p-10 flex flex-col md:w-[25%] md:items-end  md:ml-24">
               <span>
                 <p className="font-bold mb-4">find us-Online</p>
-                <span className="flex items-center justify-center space-x-4">
+                <span className="flex items-center justify-center space-x-2">
                   <span className=" bg-white p-[3px] rounded-full flex items-center justify-center">
                     <Image
                       className="image rounded-full filter grayscale opacity-60 hover:grayscale-0 hover:opacity-100 cursor-pointer transform duration-300 ease-in-out"
@@ -112,9 +121,6 @@ const Footer = () => {
           </span>
           <div className="mt-4 text-gray-300 text-center font-bold text-sm">
             © 2021 GDSC-BKBIET All Rights Reserved
-          </div>
-          <div className="text-lg text-red-600 text-center md:text-4xl">
-            UNDER MAINTENANCE
           </div>
         </footer>
       </div>

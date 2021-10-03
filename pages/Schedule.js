@@ -48,7 +48,7 @@ const Days = ({ day, times, titles }) => {
         </div>
         <div id="title" className="w-[64%]">
           {titles.map((tt) => (
-            <Title key={tt.title} title={tt.title} category={tt.category} />
+            <Title key={tt.title} title={tt.title} category={tt.cat} />
           ))}
         </div>
       </div>
