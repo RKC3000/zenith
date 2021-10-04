@@ -20,8 +20,10 @@ const Footer = () => {
               <h1 className="font-extrabold">Contact</h1>
               <span>
                 <h1 className="font-bold">Aniket Kumar Sinha</h1>
-                <h3 className="font-normal">6203961808</h3>
-                <h6 className="font-normal">sinhaaniket32@gmail.com</h6>
+                <h3 className="text-xs md:font-normal">6203961808</h3>
+                <h6 className="text-xs md:font-normal">
+                  sinhaaniket32@gmail.com
+                </h6>
                 <h1 className="font-bold">Ojas Sharma</h1>
               </span>
             </div>

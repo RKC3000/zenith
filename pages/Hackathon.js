@@ -68,7 +68,7 @@ function Hackathon() {
                 any health or medical ambiguity. Awareness with easy
                 implementation and wide focus with making it health look fun may
                 make people keener towars the goal of achieving an healthy mind
-                and well maintained physique.{" "}
+                and well maintained physique.
               </p>
             </div>
             {/* Illustration */}
@@ -170,118 +170,6 @@ function Hackathon() {
               </p>
             </div>
           </div>
-
-          {/* Individual theme */}
-          {/* <div className="grid grid-cols-2 items-center gap-x-40 gap-y-20"> */}
-          {/* details */}
-          {/* <div className="w-[380px] ml-20">
-              <h1 className="text-2xl font-bold ">Health Hack:- </h1>
-              <p className="text-xl font-medium">
-                Health being an important aspect of one&apos;s life is usually
-                neglected these days due to one&apos;s hectic life. A breach of
-                one&apos;s peace, ability and focus is wildly disturbed due to
-                any health or medical ambiguity. Awareness with easy
-                implementation and wide focus with making it health look fun may
-                make people keener towars the goal of achieving an healthy mind
-                and well maintained physique.{" "}
-              </p>
-            </div> */}
-          {/* Illustration */}
-          {/* <div className="w-96 h-96 ml-32">
-              <lottie-player
-                id="firstLottie"
-                ref={ref}
-                autoplay
-                loop
-                mode="normal"
-                background="transparent"
-                speed="2"
-                src="https://assets2.lottiefiles.com/packages/lf20_q0nn8kie.json"
-              ></lottie-player>
-            </div> */}
-
-          {/* Illustration */}
-          {/* <div className="w-96 h-96">
-              <lottie-player
-                id="firstLottie"
-                ref={ref}
-                autoplay
-                loop
-                mode="normal"
-                background="transparent"
-                speed="1"
-                src="https://assets10.lottiefiles.com/packages/lf20_bqmgf5tx.json"
-              ></lottie-player>
-            </div> */}
-          {/* details */}
-          {/* <div className="w-[380px] ml-20">
-              <h1 className="text-2xl font-bold ">Cosmic Hack:- </h1>
-              <p className="text-xl font-medium">
-                How many of you guys know that there lyes a place named Kuiper
-                ?? Well for the ones who don&apos;t know its an enormous ring of
-                astroids named Kuiper belt. This is where you&apos;ll find dwarf
-                planet Pluto. Well thats the case now its you that know it
-                existed but can we spread it ahead ? Well new innovations in
-                tech and exploration of cosmos have their own fantastic
-                storyline which makes them both interesting and fascinating at
-                the same time. Now take it ahead and make a difference by giving
-                people an imaginary tour of cosmos on their screens
-              </p>
-            </div> */}
-
-          {/* details */}
-          {/* <div className="w-[450px] ml-20">
-              <h1 className="text-2xl font-bold ">Tech Hack:- </h1>
-              <p className="text-xl font-medium">
-                This four letter word is enough to create its own world of
-                virtual reality or even one&apos;s personalised assistant that
-                can cut their long journeys of manual work and spare them with
-                even more time to focus on things with greater importance.
-                Trending technology can grand us an better version on its past
-                and now when we explore it and dig deeper we may find even new
-                wonders. Give us an technology that u think is wonderful and
-                helps us getting even more closer to perfection. Give us
-                it&apos;s gist or how may ur application show what is it that it
-                can really conjugate.
-              </p>
-            </div> */}
-          {/* Illustration */}
-          {/* <div className="w-96 h-96 ml-36">
-              <lottie-player
-                id="firstLottie"
-                ref={ref}
-                autoplay
-                loop
-                mode="normal"
-                background="transparent"
-                speed="2"
-                src="https://assets8.lottiefiles.com/packages/lf20_m9zragkd.json"
-              ></lottie-player>
-            </div> */}
-
-          {/* Illustration */}
-          {/* <div className="w-80 md:w-96 md:h-96">
-              <lottie-player
-                id="firstLottie"
-                ref={ref}
-                autoplay
-                loop
-                mode="normal"
-                background="transparent"
-                speed="2"
-                src="https://assets8.lottiefiles.com/packages/lf20_z3wd7moi.json"
-              ></lottie-player>
-            </div> */}
-          {/* details */}
-          {/* <div className="w-[450px] ml-20">
-              <h1 className="text-2xl font-bold ">Custom Hacks:- </h1>
-              <p className="text-xl font-medium">
-                Pick up an problem of your own , show its worth with the
-                application that you develop and get ur zenith as an idea is
-                just a root with its branches trying to have their own way.
-              </p>
-            </div> */}
-          {/* </div> */}
         </div>
       </div>
       <Footer />

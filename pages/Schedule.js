@@ -20,7 +20,7 @@ const Title = ({ title, category }) => {
   return (
     <>
       <div
-        className="border-b-[1px] h-[150px] border-gray-300 pt-10 pb-10 pl-4 w-full flex items-start space-y-2 justify-center flex-col"
+        className="border-b-[1px] h-[150px] border-gray-300 pt-10 pb-10 pl-2 w-full flex items-start space-y-2 justify-center flex-col"
         style={{ fontFamily: "google" }}
       >
         <span className="font-medium text-[23px]">{title}</span>
@@ -59,7 +59,7 @@ const Days = ({ day, times, titles }) => {
 const Schedule = () => {
   return (
     <>
-      <div className="zen-container">
+      <div id="schedule" className="zen-container">
         <div className="w-full flex flex-col justify-center items-center">
           <span className="text-6xl font-bold mb-16">Schedule</span>
           {ScheduleData.map((a) => (

@@ -1,10 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import SpeakerCard from "../components/SpeakerCard";
 import SpeakerData from "../components/SpeakerData";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
 
 function Speakers() {
   return (
@@ -20,22 +16,30 @@ function Speakers() {
       </div>
 
       {/* Cards */}
-      <div className="flex items-center  justify-evenly md:w-[1200px] ">
-        <ArrowBackIosIcon />
-        <div className="w-[235px] ml-7 flex flex-col flex-wrap items-center justify-center space-x-16 overflow-scroll scrollbar-thin lg:w-3/5 md:w-3/5 h-[400px] ">
-          {SpeakerData.map((data) => (
-            <SpeakerCard
-              key={data.id}
-              name={data.name}
-              image={data.image}
-              designations={data.designations}
-              tlink={data.tlink}
-              llink={data.llink}
-            />
-          ))}
-        </div>
-        <ArrowForwardIosIcon />
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-40">
+        {SpeakerData.map((data) => (
+          <SpeakerCard
+            key={data.id}
+            name={data.name}
+            image={data.image}
+            designations={data.designations}
+            tlink={data.tlink}
+            llink={data.llink}
+          />
+        ))}
       </div>
+      {/* <div className="flex items-center justify-evenly md:w-[1200px] ">
+        {SpeakerData.map((data) => (
+          <SpeakerCard
+            key={data.id}
+            name={data.name}
+            image={data.image}
+            designations={data.designations}
+            tlink={data.tlink}
+            llink={data.llink}
+          />
+        ))}
+      </div> */}
     </div>
   );
 }
