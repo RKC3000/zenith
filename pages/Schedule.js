@@ -58,16 +58,14 @@ const Days = ({ day, times, titles }) => {
 
 const Schedule = () => {
   return (
-    <>
-      <div id="schedule" className="zen-container">
-        <div className="w-full flex flex-col justify-center items-center">
-          <span className="text-6xl font-bold mb-16">Schedule</span>
-          {ScheduleData.map((a) => (
-            <Days key={a.day} day={a.day} times={a.times} titles={a.titles} />
-          ))}
-        </div>
+    <div id="schedule" className="zen-container">
+      <div className="w-full flex flex-col justify-center items-center">
+        <span className="text-6xl font-bold mb-16">Schedule</span>
+        {ScheduleData.map((a) => (
+          <Days key={a.day} day={a.day} times={a.times} titles={a.titles} />
+        ))}
       </div>
-    </>
+    </div>
   );
 };
 
