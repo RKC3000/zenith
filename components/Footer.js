@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <>
       <div id="footer" className="flex items-center  justify-center p-4 mb-6 ">
-        <footer className="bg-[#030035] p-10 pt-4 pl-24 pr-24 w-[90%]  rounded-lg drop-shadow-xl shadow-2xl">
-          <div className="text-white flex space-y-10 md:space-x-24 flex-col md:flex-row">
-            <span className="p-5">
+        <footer className="bg-[#030035] p-10 pl-16 md:p-10 md:pt-4 md:pl-24 md:pr-24 w-[90%] rounded-lg drop-shadow-xl shadow-2xl">
+          <div className="text-white flex items-start justify-center md:justify-evenly space-y-10 md:space-x-24 flex-col md:flex-row mb-6">
+            <span className="p-5 flex items-center justify-center">
               <Image
                 className="image"
                 src="/zenith-logo.png"
@@ -16,18 +16,21 @@ const Footer = () => {
                 height={200}
               />
             </span>
-            <div className="md:p-10 flex flex-col md:pl-24">
-              <h1 className="font-extrabold">Contact</h1>
-              <span>
-                <h1 className="font-bold">Aniket Kumar Sinha</h1>
-                <h3 className="text-xs md:font-normal">6203961808</h3>
-                <h6 className="text-xs md:font-normal">
-                  sinhaaniket32@gmail.com
-                </h6>
-                <h1 className="font-bold">Ojas Sharma</h1>
-              </span>
-            </div>
-            {/* <span className="md:p-10 flex flex-col md:pl-24">
+            <span className="flex -ml-8 w-[50%] justify-evenly space-x-4 md:space-x-36">
+              <div className="flex flex-col">
+                <p className="font-bold">Contact</p>
+                <span className="mt-4 ml-2">
+                  <h1 className="font-semibold">Aniket Kumar Sinha</h1>
+                  <h3 className="text-xs md:font-normal mt-1">
+                    +91-6203961808
+                  </h3>
+                  <h6 className="text-xs md:font-normal">
+                    sinhaaniket32@gmail.com
+                  </h6>
+                  <h1 className="font-bold mt-2">Ojas Sharma</h1>
+                </span>
+              </div>
+              {/* <span className="md:p-10 flex flex-col md:pl-24">
               <span>
                 <p className="font-bold">About</p>
                 <span className="flex flex-col mt-4 ml-2 space-y-1">
@@ -49,37 +52,41 @@ const Footer = () => {
                 </span>
               </span>
             </span> */}
-            <span className="md:p-10 flex flex-col ">
-              <span>
-                <p className="font-bold">Explore</p>
-                <span className=" flex flex-col mt-4 ml-2 space-y-1">
-                  <a href="#about" className="text-white hover:text-blue-300">
-                    <span>About</span>
-                  </a>
-                  <a
-                    href="#schedule"
-                    className="text-white hover:text-blue-300"
-                  >
-                    <span>Schedule</span>
-                  </a>
-                  <a
-                    href="#speakers"
-                    className="text-white hover:text-blue-300"
-                  >
-                    <span>Speakers</span>
-                  </a>
-                  <a
-                    href="#sponsors"
-                    className="text-white hover:text-blue-300"
-                  >
-                    <span>Sponsors</span>
-                  </a>
-                  <a href="#faq" className="text-white hover:text-blue-300">
-                    <span>FAQ</span>
-                  </a>
-                  <a href="#contact" className="text-white hover:text-blue-300">
-                    <span>ContactUs</span>
-                  </a>
+              <span className=" flex flex-col ">
+                <span>
+                  <p className="font-bold">Explore</p>
+                  <span className=" flex flex-col mt-4 ml-2 space-y-1">
+                    <a href="#about" className="text-white hover:text-blue-300">
+                      <span>About</span>
+                    </a>
+                    <a
+                      href="#schedule"
+                      className="text-white hover:text-blue-300"
+                    >
+                      <span>Schedule</span>
+                    </a>
+                    <a
+                      href="#speakers"
+                      className="text-white hover:text-blue-300"
+                    >
+                      <span>Speakers</span>
+                    </a>
+                    <a
+                      href="#sponsors"
+                      className="text-white hover:text-blue-300"
+                    >
+                      <span>Sponsors</span>
+                    </a>
+                    <a href="#faq" className="text-white hover:text-blue-300">
+                      <span>FAQ</span>
+                    </a>
+                    <a
+                      href="#contact"
+                      className="text-white hover:text-blue-300"
+                    >
+                      <span>ContactUs</span>
+                    </a>
+                  </span>
                 </span>
               </span>
             </span>
