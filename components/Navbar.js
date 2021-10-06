@@ -42,41 +42,35 @@ function Navbar() {
             </div>
           </div>
           <div className="header__menu" id="myMenu" onClick={RespMenu}>
-            <Link href="/">
-              <a href="#about" className="nav__links">
-                <span>About</span>
-              </a>
-            </Link>
-            <Link href="/">
-              <a href="#schedule" className="nav__links">
-                <span>Schedule</span>
-              </a>
-            </Link>
+            <a href="#about" className="nav__links">
+              <span>About</span>
+            </a>
+
+            <a href="#schedule" className="nav__links">
+              <span>Schedule</span>
+            </a>
+
             <Link href="/Hackathon">
               <a className="nav__links">
                 <span>Hackthon</span>
               </a>
             </Link>
-            <Link href="/">
-              <a href="#speakers" className="nav__links">
-                <span>Speakers</span>
-              </a>
-            </Link>
-            <Link href="/">
-              <a href="#sponsors" className="nav__links">
-                <span>Sponsors</span>
-              </a>
-            </Link>
-            <Link href="/">
-              <a href="#faq" className="nav__links">
-                <span>FAQ</span>
-              </a>
-            </Link>
-            <Link href="/">
-              <a href="#footer" className="nav__links">
-                <span>ContactUs</span>
-              </a>
-            </Link>
+
+            <a href="#speakers" className="nav__links">
+              <span>Speakers</span>
+            </a>
+
+            <a href="#sponsors" className="nav__links">
+              <span>Sponsors</span>
+            </a>
+
+            <a href="#faq" className="nav__links">
+              <span>FAQ</span>
+            </a>
+
+            <a href="#footer" className="nav__links">
+              <span>ContactUs</span>
+            </a>
           </div>
         </div>
       </div>

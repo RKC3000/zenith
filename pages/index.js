@@ -27,7 +27,7 @@ function Home() {
         <About />
         <Schedule />
         <Speakers />
-        {/* <Sponsor /> */}
+        <Sponsor />
         <FAQ />
         {/* <Contact /> */}
         <Footer />
