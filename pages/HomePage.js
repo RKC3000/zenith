@@ -30,13 +30,13 @@ function HomePage() {
       <div className="flex flex-col text-white text-center lg:pl-16">
         <div className="mb-2">
           <h1 className="text-2xl md:text-6xl font-bold">Hello Hackers</h1>
-          <h2 className="text-4xl md:text-6xl">
+          <h2 className="text-4xl md:text-6xl md:m-5">
             Welcome the{" "}
             <x className="md:bg-blue-500 rounded-3xl p-4 font-bold pt-0 pb-0">
               Zenith
             </x>
           </h2>
-          <h3 className="hidden md:text-gray-300 italic text-xs md:text-lg mt-2 md:mt-5 text-right font-semibold">
+          <h3 className="hidden text-right font-semibold md:text-gray-300 italic text-xs md:text-lg mt-2 md:mt-5 ">
             20-22 October 2021
           </h3>
         </div>
