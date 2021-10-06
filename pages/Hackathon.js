@@ -61,7 +61,7 @@ function Hackathon() {
 
           <div className="grid grid-rows-1 gap-y-5 items-center text-center mx-3 md:ml-52 md:grid-cols-2">
             {/* 1st theme */}
-            <div className="bg-red-500 w-[300px] h-[400px] p-1 md:w-[400px]">
+            <div className="bg-red-500 w-[300px] h-[400px] p-1 md:w-[400px] md:rounded-2xl">
               <h1 className="text-lg font-bold p-2 mb-2 md:text-2xl ">
                 Hack the Health:-
               </h1>
@@ -76,7 +76,7 @@ function Hackathon() {
               </p>
             </div>
             {/* 2nd theme */}
-            <div className="bg-blue-500 w-[300px] h-[400px] p-1 md:w-[400px]">
+            <div className="bg-blue-500 w-[300px] h-[400px] p-1 md:w-[400px] md:rounded-2xl">
               <h1 className="text-lg font-bold p-2 mb-2 md:text-2xl">
                 Hack the Cosmos:-{" "}
               </h1>
@@ -93,7 +93,7 @@ function Hackathon() {
               </p>
             </div>
             {/* 3rd theme */}
-            <div className="bg-green-500 w-[300px] h-[400px] p-1 md:w-[400px]">
+            <div className="bg-green-500 w-[300px] h-[400px] p-1 md:w-[400px] md:rounded-2xl">
               <h1 className="text-lg font-bold p-2 mb-2 md:text-2xl">
                 Hack the Tech:-{" "}
               </h1>
@@ -111,7 +111,7 @@ function Hackathon() {
               </p>
             </div>
             {/* 4th theme */}
-            <div className="bg-yellow-500 w-[300px] h-[400px] p-1 md:w-[400px]">
+            <div className="bg-yellow-500 w-[300px] h-[400px] p-1 md:w-[400px] md:rounded-2xl">
               <h1 className="text-lg font-bold p-2 mb-2 md:text-2xl">
                 Hack the Custom:-{" "}
               </h1>
