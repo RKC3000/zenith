@@ -95,31 +95,49 @@ const Footer = () => {
                 <p className="font-bold mb-4">find us-Online</p>
                 <span className="flex items-center justify-center space-x-2">
                   <span className=" bg-white p-[3px] rounded-full flex items-center justify-center">
-                    <Image
-                      className="image rounded-full filter grayscale opacity-60 hover:grayscale-0 hover:opacity-100 cursor-pointer transform duration-300 ease-in-out"
-                      src="/twitter.png"
-                      alt="logo"
-                      width={40}
-                      height={40}
-                    />
+                    <a
+                      href="https://twitter.com/festzenith"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        className="image rounded-full filter grayscale opacity-60 hover:grayscale-0 hover:opacity-100 cursor-pointer transform duration-300 ease-in-out"
+                        src="/twitter.png"
+                        alt="logo"
+                        width={40}
+                        height={40}
+                      />
+                    </a>
                   </span>
                   <span className=" bg-white p-[3px] rounded-full flex items-center justify-center">
-                    <Image
-                      className="image rounded-full filter grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transform duration-300 ease-in-out"
-                      src="/github.png"
-                      alt="logo"
-                      width={40}
-                      height={40}
-                    />
+                    <a
+                      href="https://github.com/dscbkbiet/zenith"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        className="image rounded-full filter grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transform duration-300 ease-in-out"
+                        src="/github.png"
+                        alt="logo"
+                        width={40}
+                        height={40}
+                      />
+                    </a>
                   </span>
                   <span className=" bg-white p-[3px] rounded-full flex items-center justify-center">
-                    <Image
-                      className="image rounded-full filter grayscale opacity-50 hover:grayscale-0 hover:opacity-100 cursor-pointer transform duration-300 ease-in-out"
-                      src="/linkedin.png"
-                      alt="logo"
-                      width={40}
-                      height={40}
-                    />
+                    <a
+                      href="https://www.linkedin.com/company/festzenith/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        className="image rounded-full filter grayscale opacity-50 hover:grayscale-0 hover:opacity-100 cursor-pointer transform duration-300 ease-in-out"
+                        src="/linkedin.png"
+                        alt="logo"
+                        width={40}
+                        height={40}
+                      />
+                    </a>
                   </span>
                 </span>
               </span>
