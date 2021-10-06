@@ -59,7 +59,7 @@ function Hackathon() {
             Theme
           </h1>
 
-          <div className="grid grid-rows-1 gap-y-5 items-center text-center ml-3 md:ml-52 md:grid-cols-2">
+          <div className="grid grid-rows-1 gap-y-5 items-center text-center mx-3 md:ml-52 md:grid-cols-2">
             {/* 1st theme */}
             <div className="bg-red-500 w-[300px] h-[400px] p-1 md:w-[400px]">
               <h1 className="text-lg font-bold p-2 mb-2 md:text-2xl ">
