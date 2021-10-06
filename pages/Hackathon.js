@@ -13,19 +13,19 @@ function Hackathon() {
       <Navbar />
       <div className="mt-32">
         {/* Heading */}
-        <h1 className="text-2xl font-extrabold text-center md:ml-56 mb-3 md:text-7xl">
+        <h1 className="text-2xl font-extrabold text-center md:mb-3 md:text-7xl">
           Hackathon
         </h1>
 
         {/* About + Illustration */}
-        <div className="flex text-center md:ml-20">
+        <div className="flex flex-col text-center md:flex-row md:ml-20">
           {/* about */}
           <div className="flex-1 p-3">
             <div>
-              <h1 className="text-3xl font-bold underline md:text-6xl">
+              <h1 className="text-3xl text-center font-bold underline md:text-6xl">
                 About
               </h1>
-              <p className=" font-semibold mt-7 md:w-[450px]">
+              <p className="font-semibold text-center mt-7 ">
                 Bright minds with innovative ideas are the core to simplified
                 hacks that makes one&apos;s life easier. The journey from
                 naturally obtained light to the light from high temperature
@@ -39,7 +39,7 @@ function Hackathon() {
             </div>
           </div>
           {/* Illustration */}
-          <div className="hidden flex-1 h-[600px] w-[600px] ">
+          <div className="md:flex-1 md:h-[500px] md:w-[500px] ">
             <lottie-player
               id="firstLottie"
               ref={ref}
@@ -55,13 +55,13 @@ function Hackathon() {
 
         {/* Themes */}
         <div>
-          <h1 className="text-3xl text-center font-bold underline md:text-6xl mb-5 ">
+          <h1 className="text-3xl text-center font-bold underline md:text-6xl mb-20">
             Theme
           </h1>
 
           <div className="grid grid-rows-1 gap-y-5 items-center text-center mx-3 md:ml-52 md:grid-cols-2">
             {/* 1st theme */}
-            <div className="bg-red-500 w-[300px] h-[400px] p-1 md:w-[400px] md:rounded-2xl">
+            <div className="bg-red-500 w-[300px] h-[400px] p-1 rounded-2xl md:w-[400px] ">
               <h1 className="text-lg font-bold p-2 mb-2 md:text-2xl ">
                 Hack the Health:-
               </h1>
@@ -76,46 +76,41 @@ function Hackathon() {
               </p>
             </div>
             {/* 2nd theme */}
-            <div className="bg-blue-500 w-[300px] h-[400px] p-1 md:w-[400px] md:rounded-2xl">
+            <div className="bg-blue-500 w-[300px] h-[400px] p-1 rounded-2xl md:w-[400px]">
               <h1 className="text-lg font-bold p-2 mb-2 md:text-2xl">
                 Hack the Cosmos:-{" "}
               </h1>
               <p className="text-base font-medium md:text-xl">
                 How many of you guys know that there lyes a place named Kuiper
                 ?? Well for the ones who don&apos;t know its an enormous ring of
-                astroids named Kuiper belt. This is where you&apos;ll find dwarf
-                planet Pluto. Well thats the case now its you that know it
-                existed but can we spread it ahead ? Well new innovations in
-                tech and exploration of cosmos have their own fantastic
-                storyline which makes them both interesting and fascinating at
-                the same time. Now take it ahead and make a difference by giving
-                people an imaginary tour of cosmos on their screens
+                astroids named Kuiper belt. Well new innovations in tech and
+                exploration of cosmos have their own fantastic story line which
+                makes them both interesting and fascinating at the same time.
+                Now take it ahead and make a difference by giving people an
+                imaginary tour of cosmos on their screens.
               </p>
             </div>
             {/* 3rd theme */}
-            <div className="bg-green-500 w-[300px] h-[400px] p-1 md:w-[400px] md:rounded-2xl">
+            <div className="bg-green-500 w-[300px] h-[400px] p-1 rounded-2xl md:w-[400px]">
               <h1 className="text-lg font-bold p-2 mb-2 md:text-2xl">
                 Hack the Tech:-{" "}
               </h1>
-              <p className="text-lg font-medium md:text-xl">
+              <p className="text-base font-medium md:text-xl">
                 This four letter word is enough to create its own world of
                 virtual reality or even one&apos;s personalised assistant that
                 can cut their long journeys of manual work and spare them with
                 even more time to focus on things with greater importance.
                 Trending technology can grand us an better version on its past
                 and now when we explore it and dig deeper we may find even new
-                wonders. Give us an technology that u think is wonderful and
-                helps us getting even more closer to perfection. Give us
-                it&apos;s gist or how may ur application show what is it that it
-                can really conjugate.
+                wonders.
               </p>
             </div>
             {/* 4th theme */}
-            <div className="bg-yellow-500 w-[300px] h-[400px] p-1 md:w-[400px] md:rounded-2xl">
+            <div className="bg-yellow-500 w-[300px] h-[400px] p-1 rounded-2xl md:w-[400px]">
               <h1 className="text-lg font-bold p-2 mb-2 md:text-2xl">
                 Hack the Custom:-{" "}
               </h1>
-              <p className="text-lg font-medium md:text-xl">
+              <p className="text-base font-medium md:text-xl">
                 Pick up an problem of your own , show its worth with the
                 application that you develop and get ur zenith as an idea is
                 just a root with its branches trying to have their own way.
