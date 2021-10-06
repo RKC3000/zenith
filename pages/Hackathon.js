@@ -93,7 +93,7 @@ function Hackathon() {
             {/* 3rd theme */}
             <div className="bg-green-500 w-[300px] h-[400px] p-1 rounded-2xl md:w-[400px]">
               <h1 className="text-lg font-bold p-2 mb-2 md:text-2xl">
-                Hack the Tech:-{" "}
+                Hack the Trend:-{" "}
               </h1>
               <p className="text-base font-medium md:text-xl">
                 This four letter word is enough to create its own world of
@@ -108,7 +108,7 @@ function Hackathon() {
             {/* 4th theme */}
             <div className="bg-yellow-500 w-[300px] h-[400px] p-1 rounded-2xl md:w-[400px]">
               <h1 className="text-lg font-bold p-2 mb-2 md:text-2xl">
-                Hack the Custom:-{" "}
+                Hack the Society:-{" "}
               </h1>
               <p className="text-base font-medium md:text-xl">
                 Pick up an problem of your own , show its worth with the
