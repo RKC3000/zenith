@@ -15,6 +15,9 @@
   .zen-container {
     @apply flex pt-24 pb-24 items-center p-4 md:p-24;
   }
+  #sponsors {
+    border-radius: 45% 45% 45% 45% /10% 10% 10% 10%;
+  }
   .back {
     background-color: #e4d6f5;
     background: url("/cosmos.png") center center no-repeat;

@@ -2,21 +2,31 @@ import Image from "next/image";
 
 function Sponsor() {
   return (
-    <div id="sponsors" className="min-h-screen flex flex-col mt-28 p-1">
-      <h1 className="font-bold text-2xl text-center underline md:ml-20 md:text-6xl">
-        Our{" "}
-      </h1>
-      <h1 className="font-bold text-2xl text-center underline mb-8 md:text-6xl">
-        Sponsors
+    <div
+      id="sponsors"
+      className="mb-10 bg-gray-200 pt-24 pb-24 flex flex-col mt-20 p-1"
+    >
+      <h1 className="font-bold text-center md:ml-20 text-6xl mb-20">
+        Our Sponsors
       </h1>
 
-      <div className="flex flex-col items-center justify-center space-y-20 md:flex-row md:space-x-10">
-        <div>
-          <Image src="/mlsa.png" alt="MLSA" width={400} height={350} />
+      <div className="flex flex-col items-center justify-center w-full space-y-10 md:flex-row ">
+        <div className="flex items-center justify-center">
+          <Image
+            className="object-contain"
+            src="/mlsa.png"
+            alt="MLSA"
+            width={200}
+            height={200}
+          />
         </div>
 
-        <div className="flex items-center">
+        <div
+          className="flex items-center justify-center md:ml-10"
+          style={{ margin: 0 }}
+        >
           <Image
+            className="object-contain"
             src="/ns-logo-1.png"
             alt="Newton School"
             width={600}
