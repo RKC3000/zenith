@@ -53,7 +53,7 @@ function HomePage() {
               width={30}
               height={30}
             />
-            <a href="https://discord.gg/YCcD37fTyB">Discord</a>
+            <a href="https://discord.gg/7jpqTBt">Discord</a>
           </button>
         </div>
       </div>
