@@ -6,17 +6,17 @@ function Speakers() {
   return (
     <div
       id="speakers"
-      className="zen-container min-h-screen flex flex-col items-center justify-center p-2 m-2 space-y-8"
+      className="zen-container flex flex-col items-center justify-center p-2 m-2 space-y-8"
     >
       {/* Heading */}
-      <div className="mt-28">
+      <div className="">
         <div className="text-center mb-10">
           <h2 className="text-6xl font-bold">Speakers</h2>
         </div>
       </div>
 
       {/* Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-40">
+      <div className="grid grid-cols-1 md:grid-cols-4 md:gap-x-20">
         {SpeakerData.map((data) => (
           <SpeakerCard
             key={data.id}

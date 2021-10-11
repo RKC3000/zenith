@@ -16,7 +16,7 @@ const Footer = () => {
                 height={200}
               />
             </span>
-            <span className="flex -ml-8 w-[50%] justify-evenly space-x-4 md:space-x-36">
+            <span className="flex ml-10 w-[50%] justify-evenly  space-x-4 md:space-x-36">
               <div className="flex flex-col">
                 <p className="font-bold">Contact</p>
                 <span className="mt-4 ml-2">
