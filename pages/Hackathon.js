@@ -8,6 +8,17 @@ function Hackathon() {
     import("@lottiefiles/lottie-player");
   });
 
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className="flex flex-col bg-[#F8F0E3]">
       <Navbar />
@@ -37,6 +48,14 @@ function Hackathon() {
                 its difference after it reaches its highest peak !!!
               </p>
             </div>
+            <button>
+              {/* <div
+                class="apply-button"
+                data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                data-button-theme="light"
+                style="height: 44px; width: 312px"
+              ></div> */}
+            </button>
           </div>
           {/* Illustration */}
           <div className="md:flex-1 md:h-[500px] md:w-[500px] ">

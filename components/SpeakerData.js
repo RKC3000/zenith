@@ -1,20 +1,20 @@
 const SpeakerData = [
-  // {
-  //   id: "1",
-  //   image: "/Rajesh_Shreedhar_Bhat.jpg",
-  //   name: "Rajesh Shreedhar Bhat",
-  //   designations: "Google Developers Expert for Machine Learning",
-  //   tlink: "https://twitter.com/rajesh_s_bhat",
-  //   llink: "https://www.linkedin.com/in/rajeshshreedhar/",
-  // },
-  // {
-  //   id: "2",
-  //   image: "/Vrijraj_Singh.png",
-  //   name: "Vrijraj Singh",
-  //   designations: "Google Developers Expert for Firebase & Web Technologies",
-  //   tlink: "https://twitter.com/VrijrajSingh",
-  //   llink: "https://www.linkedin.com/in/vrijrajsingh/",
-  // },
+  {
+    id: "1",
+    image: "/nishugoel.jpg",
+    name: "Nishu Goel",
+    designations: "Google Developers Expert for Firebase & Web Technologies",
+    tlink: "https://twitter.com/dcoustawilson",
+    llink: "https://www.linkedin.com/in/nishu-goel/",
+  },
+  {
+    id: "2",
+    image: "/Sriranjani_image.jpg",
+    name: "Sriranjani Ramakrishnan",
+    designations: "Google Developers Expert for Machine Learning",
+    tlink: "",
+    llink: "https://www.linkedin.com/in/sriranjani-ramakrishnan/",
+  },
   {
     id: "3",
     image: "/Vivek_Yadav.png",

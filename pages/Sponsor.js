@@ -10,7 +10,7 @@ function Sponsor() {
         Our Sponsors
       </h1>
 
-      <div className="flex flex-col items-center justify-center w-full space-y-10 md:flex-row ">
+      <div className="w-full flex flex-col items-center justify-center space-y-10 md:flex-row md:flex-wrap">
         <div className="flex items-center justify-center">
           <Image
             className="object-contain"
@@ -28,6 +28,45 @@ function Sponsor() {
           <Image
             className="object-contain"
             src="/ns-logo-1.png"
+            alt="Newton School"
+            width={600}
+            height={200}
+          />
+        </div>
+
+        <div
+          className="flex items-center justify-center md:ml-10"
+          style={{ margin: 0 }}
+        >
+          <Image
+            className="object-contain"
+            src="/Devfolio_Logo-Colored.png"
+            alt="Newton School"
+            width={600}
+            height={200}
+          />
+        </div>
+
+        <div
+          className="flex items-center justify-center md:ml-10"
+          style={{ margin: 0 }}
+        >
+          <Image
+            className="object-contain"
+            src="/Polygon_Logo-Colored.png"
+            alt="Newton School"
+            width={600}
+            height={200}
+          />
+        </div>
+
+        <div
+          className="flex items-center justify-center md:ml-10"
+          style={{ margin: 0 }}
+        >
+          <Image
+            className="object-contain"
+            src="/Tezos_Logo-Colored.png"
             alt="Newton School"
             width={600}
             height={200}

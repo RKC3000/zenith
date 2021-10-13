@@ -5,8 +5,9 @@ const Footer = () => {
   return (
     <>
       <div id="footer" className="flex items-center justify-center p-4 mb-6 ">
-        <footer className="bg-[#030035] p-10 pl-16 md:p-10 md:pt-4 md:pl-24 md:pr-24 w-[90%] rounded-lg drop-shadow-xl shadow-2xl">
+        <footer className="bg-[#030035] p-10 md:p-10 md:pt-4 md:pl-24 md:pr-24 w-[90%] rounded-lg drop-shadow-xl shadow-2xl">
           <div className="text-white flex items-start justify-center md:justify-evenly space-y-10 md:space-x-24 flex-col md:flex-row mb-6">
+            {/* Zenith Logo */}
             <span className="p-5 flex items-center justify-center">
               <Image
                 className="image"
@@ -16,9 +17,12 @@ const Footer = () => {
                 height={200}
               />
             </span>
-            <span className="flex ml-10 w-[50%] justify-evenly  space-x-4 md:space-x-36">
+            <span className="flex flex-col justify-center space-y-3 space-x-4 md:space-x-36 md:flex-row md:justify-evenly">
+              {/* Contact */}
               <div className="flex flex-col">
-                <p className="font-bold">Contact</p>
+                <p className="font-bold text-2xl flex justify-center md:text-lg">
+                  Contact
+                </p>
                 <span className="mt-4 ml-2">
                   <h1 className="font-semibold">Aniket Kumar Sinha</h1>
                   <h3 className="text-xs md:font-normal mt-1">
@@ -27,35 +31,17 @@ const Footer = () => {
                   <h6 className="text-xs md:font-normal">
                     sinhaaniket32@gmail.com
                   </h6>
-                  <h1 className="font-bold mt-2">Ojas Sharma</h1>
+                  <h1 className="font-semibold mt-2">Ojas Sharma</h1>
                 </span>
               </div>
-              {/* <span className="md:p-10 flex flex-col md:pl-24">
-              <span>
-                <p className="font-bold">About</p>
-                <span className="flex flex-col mt-4 ml-2 space-y-1">
-                  <a href="#about" className="text-white hover:text-blue-300">
-                    <span>Code of Conduct</span>
-                  </a>
-                  <a
-                    href="#schedule"
-                    className="text-white hover:text-blue-300"
-                  >
-                    <span>Schedule</span>
-                  </a>
-                  <a href="#speaker" className="text-white hover:text-blue-300">
-                    <span>Privacy policy</span>
-                  </a>
-                  <a href="#sponsor" className="text-white hover:text-blue-300">
-                    <span>Blogs</span>
-                  </a>
-                </span>
-              </span>
-            </span> */}
+
+              {/* Explore */}
               <span className=" flex flex-col ">
                 <span>
-                  <p className="font-bold">Explore</p>
-                  <span className=" flex flex-col mt-4 ml-2 space-y-1">
+                  <p className="font-bold text-2xl flex justify-center md:text-lg md:flex-none">
+                    Explore
+                  </p>
+                  <span className=" flex flex-col md:mt-4 md:ml-2 space-y-1">
                     <a href="#about" className="text-white hover:text-blue-300">
                       <span>About</span>
                     </a>
@@ -90,7 +76,7 @@ const Footer = () => {
                 </span>
               </span>
             </span>
-            <div className="md:p-10 flex flex-col md:w-[25%] md:items-end  md:ml-24">
+            <div className="flex flex-col md:p-10 md:w-[25%] md:items-end md:ml-24">
               <span>
                 <p className="font-bold mb-4">find us-Online</p>
                 <span className="flex items-center justify-center space-x-2">
@@ -99,6 +85,7 @@ const Footer = () => {
                       href="https://twitter.com/festzenith"
                       target="_blank"
                       rel="noreferrer"
+                      className="grid"
                     >
                       <Image
                         className="image rounded-full filter grayscale opacity-60 hover:grayscale-0 hover:opacity-100 cursor-pointer transform duration-300 ease-in-out"
@@ -114,6 +101,7 @@ const Footer = () => {
                       href="https://github.com/dscbkbiet/zenith"
                       target="_blank"
                       rel="noreferrer"
+                      className="grid"
                     >
                       <Image
                         className="image rounded-full filter grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transform duration-300 ease-in-out"
@@ -129,6 +117,7 @@ const Footer = () => {
                       href="https://www.linkedin.com/company/festzenith/"
                       target="_blank"
                       rel="noreferrer"
+                      className="grid"
                     >
                       <Image
                         className="image rounded-full filter grayscale opacity-50 hover:grayscale-0 hover:opacity-100 cursor-pointer transform duration-300 ease-in-out"
