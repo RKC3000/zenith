@@ -48,13 +48,16 @@ function Hackathon() {
                 its difference after it reaches its highest peak !!!
               </p>
             </div>
-            <button>
-              {/* <div
-                class="apply-button"
-                data-hackathon-slug="YOUR-HACKATHON-SLUG"
+            {/* button */}
+            <button className="mt-10">
+              <div
+                className="apply-button"
+                data-hackathon-slug="zenithhacks"
                 data-button-theme="light"
-                style="height: 44px; width: 312px"
-              ></div> */}
+                style={{ height: "44px", width: "312px" }}
+              >
+                Apply with Devfolio
+              </div>
             </button>
           </div>
           {/* Illustration */}
