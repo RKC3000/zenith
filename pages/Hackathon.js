@@ -54,7 +54,7 @@ function Hackathon() {
                 className="apply-button"
                 data-hackathon-slug="zenithhacks"
                 data-button-theme="light"
-                style={{ height: "44px", width: "311px" }}
+                style={{ height: "44px", width: "312px" }}
               >
                 Apply with Devfolio
               </div>
