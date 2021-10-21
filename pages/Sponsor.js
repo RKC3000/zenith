@@ -131,6 +131,21 @@ function Sponsor() {
             />
           </div>
         </a>
+
+        <a href="https://codedamn.com/" target="_blank" rel="noreferrer">
+          <div
+            className="flex items-center justify-center md:ml-10"
+            style={{ margin: 0 }}
+          >
+            <Image
+              className="object-contain"
+              src="/Codedamn_logo.png"
+              alt="Code Dam"
+              width={600}
+              height={200}
+            />
+          </div>
+        </a>
       </div>
     </div>
   );
