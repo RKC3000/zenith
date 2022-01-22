@@ -136,7 +136,7 @@ const Footer = () => {
             <hr className="h-[1px] w-[85%] mt-4 bg-white" />
           </span>
           <div className="mt-4 text-gray-300 text-center font-bold text-sm">
-            © 2021 GDSC-BKBIET All Rights Reserved
+            © 2021 GDSC-BKBIET All Rights Reserved | Build by Ramakrishna Chhipa
           </div>
         </footer>
       </div>
